@@ -18,7 +18,6 @@ public class Transaction {
     private double amount;
     
     private java.util.Date dateCreated;
-
     public Transaction() 
     {
         dateCreated = new java.util.Date();

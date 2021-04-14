@@ -14,14 +14,14 @@ public class lab21 {
         account.setAnnualInterestRate(1.5);
         
         // Deposit $30, $40, and $50 to the account
-		account.deposit(30);
-		account.deposit(40);
-		account.deposit(50);
+	account.deposit(30);
+	account.deposit(40);
+	account.deposit(50);
 
-		// withdraw $5, $4, and $2 from the account
-		account.withdraw(5);
-		account.withdraw(4);
-		account.withdraw(2);
+	// withdraw $5, $4, and $2 from the account
+	account.withdraw(5);
+	account.withdraw(4);
+	account.withdraw(2);
         
         
         System.out.println("Name: "+account.getName());
