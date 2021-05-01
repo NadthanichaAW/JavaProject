@@ -1245,7 +1245,16 @@ public class FXMLGameController implements Initializable {
     private void handleButtonnextplayer(MouseEvent event) {
         soundEffectsClick();
         btn_standmutiple.relocate(977, 417);
-        btn_Hitmutiple.relocate(977, 461);
+         if(player1){
+            if(!cardp2_4){
+                btn_Hitmutiple.relocate(977, 461);
+            }
+        }
+        else{
+            if(!cardp1_4){
+                btn_Hitmutiple.relocate(977, 461);
+            }
+        }
         btn_nextplayer.relocate(965, 285);
 
         if (player1) {
